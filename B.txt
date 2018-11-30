@@ -1,0 +1,11 @@
+ejerb:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de C:'),
+    read(C),
+    display('Introduce el valor de D:'),
+    read(D),
+    
+    Y is ((4*D+A^2)^3)/(C-5*B)+6*A,
+    display(Y).
